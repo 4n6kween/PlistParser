@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo
-echo 'Plists Parser'
+echo 'Plist Parser'
 echo 'Generating Database...'
 
 mkdir Plists;
