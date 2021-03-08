@@ -5,7 +5,7 @@ Plist4n6 is a shell script that extracts timestamps in Property Lists into an sq
 This script was tested on MacOS Catalina 10.15.7. 
 
 ## Requirements
-- MacOS > 10.2
+- **MacOS** > 10.2
 - **Homebrew** - you can install Homebrew by following the instructions on their *[website](https://brew.sh/). 
 - **plutil** - plutil is a command line tool that is pre-installed in MacOS. 
 - **sqlite3**- sqlite3 is a command line tool that is pre-installed in MacOS. 
@@ -15,10 +15,13 @@ This script was tested on MacOS Catalina 10.15.7.
 ## Instructions
 Clone the repository:
 * `git clone ***`
+
 Cd into the repository:
 * `cd Plist4n6-master`
+
 Make the code executable: 
 * `chmod +x PlistParser.sh`
+
 Execute the code and indicate the directory that contains the Property List files: 
 * `./PlistParser.sh /target/directory/`
 
