@@ -6,7 +6,7 @@ echo 'Generating Database...'
 
 mkdir Plists;
 
-find "$@" -name '*.plist' | cpio -pdm  Plists;
+find "$@" -name '*.plist' 2>/dev/null | cpio -pdm  Plists;
 find ./Plists -type f -name "*.plist" -exec plutil -convert xml1 "{}" \;
 
 grep -rs "real>[2-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]"  -B 1 Plists > realcc.txt;
