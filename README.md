@@ -16,7 +16,7 @@ Clone the repository:
 * `git clone ***`
 
 Cd into the repository:
-* `cd PlistParser-master`
+* `cd PlistParser`
 
 Make the code executable: 
 * `chmod +x PlistParser.sh`
