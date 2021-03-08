@@ -117,12 +117,19 @@ SET timestamp = datetime(timestamp, 'unixepoch');
 UPDATE DATE
 SET timestamp = replace(timestamp, 'T', ' ');
 
-CREATE TABLE Ts(directory Varchar, activity Varchar, timestamp datetime);
-INSERT INTO Ts SELECT * FROM DATE;
-INSERT INTO Ts SELECT * FROM INTEGER;
-INSERT INTO Ts SELECT * FROM REALC;
-INSERT INTO Ts SELECT * FROM REALU;
-.save plists.db
+CREATE TABLE Timestamps(directory Varchar, activity Varchar, timestamp datetime);
+INSERT INTO Timestamps SELECT * FROM DATE;
+INSERT INTO Timestamps SELECT * FROM INTEGER;
+INSERT INTO Timestamps SELECT * FROM REALC;
+INSERT INTO Timestamps SELECT * FROM REALU;
+.save Timestamps.db
+
+DROP TABLE DATE;
+DROP TABLE INTEGER;
+DROP TABLE REALC;
+DROP TABLE REALU;
+.save Timestamps.db
+
 END_SQL
 
 rm -r dates.txt
