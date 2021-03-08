@@ -13,7 +13,7 @@ This script was tested on MacOS Catalina 10.15.7.
 
 ## Instructions
 Clone the repository:
-* `git clone ***`
+* `git clone https://github.com/4n6kween/PlistParser.git`
 
 Cd into the repository:
 * `cd PlistParser`
