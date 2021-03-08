@@ -1,6 +1,6 @@
-# Plist4n6
+# PlistParser
 
-Plist4n6 is a shell script that extracts timestamps in Property Lists into an sqlite database. It will run on a decompressed directory or a parsed Itunes Backup. This project was written as a quarantine hobby, so please be forgiving if it is badly written as I have no background in programming.
+PlistParser is a shell script that extracts timestamps in Property Lists into an sqlite database. It will run on a decompressed directory or a parsed Itunes Backup. This project was written as a quarantine hobby, so please be forgiving if it is badly written as I have no background in programming.
 
 This script was tested on MacOS Catalina 10.15.7. 
 
@@ -17,7 +17,7 @@ Clone the repository:
 * `git clone ***`
 
 Cd into the repository:
-* `cd Plist4n6-master`
+* `cd PlistParser-master`
 
 Make the code executable: 
 * `chmod +x PlistParser.sh`
