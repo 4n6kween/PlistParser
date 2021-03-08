@@ -28,5 +28,5 @@ Execute the code and indicate the directory that contains the Property List file
 ## How it works
 
 The script works by finding files with the ".plist" extension in the target directory and copying them (and the folder structure) into a new directory. The "*.plist" files in the new directory are then converted to a readable, XML format using plutil.
-Timestamps are generally stored in Plists as "<real>", "<integer>" and "<date>". Using grep, the script finds potential timestamp matches and outputs them to four different text files according to the timestamp format (CocoaCore, Unix, yyyy-mm-ddthh-mm-ssz). 
+Timestamps are generally stored in Plists as "real", "integer" or "date". Using grep, the script finds potential timestamp matches and outputs them to four different text files according to the timestamp format (CocoaCore, Unix, yyyy-mm-ddthh-mm-ssz). 
 The text files are then "cleaned" using gsed, and imported as Tables in Sqlite. The timestamps are converted into "YYYY-MM-DD HH:MM:SS" format and merged into a single table "Timestamps". 
