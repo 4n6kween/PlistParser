@@ -27,3 +27,4 @@ Execute the code and indicate the directory that contains the Property List file
 ## How it works
 
 In the directory, you will find the output database "Timestamps.db" and a folder named 'Plists' which will contain a copy of all .plist files in XML format with their original directory structure.  
+By default, the text files that contain the "raw data" are deleted. You can keep them by removing the last four lines of the script starting with "rm -r". 
