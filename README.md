@@ -1,6 +1,6 @@
 # PlistParser
 
-PlistParser is a shell script that extracts timestamps in Property Lists into an Sqlite database. It will run on a decompressed directory or a parsed Itunes Backup. This project was written as a quarantine hobby, so please be forgiving if it is badly written as I have no background in programming.
+PlistParser is a shell script that extracts timestamps in Property Lists into an Sqlite database. It will run on a decompressed directory or a parsed Itunes Backup. This project was written as a quarantine hobby🤪!
 
 This script was tested on MacOS Catalina 10.15.7. 
 
