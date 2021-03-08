@@ -28,3 +28,6 @@ Execute the code and indicate the directory that contains the Property List file
 
 In the directory, you will find the output database "Timestamps.db" and a folder named 'Plists' which will contain a copy of all .plist files in XML format with their original directory structure.  
 By default, the text files that contain the "raw data" are deleted. You can keep them by removing the last four lines of the script starting with "rm -r". 
+
+## Known Errors
+The plutil command may generate an error "Property List error: Unexpected character B at line 1 / JSON error: JSON text did not start with array or object and option to allow fragments not set." In my tests, it occured when running plutil on .plist files located in .bundle or .framework packages. 
