@@ -6,7 +6,7 @@ This script was tested on MacOS Catalina 10.15.7.
 
 ## Requirements
 - **MacOS** > 10.2
-- **Homebrew** - you can install Homebrew by following the instructions on their *[website](https://brew.sh/). 
+- **Homebrew** - you can install Homebrew by following the instructions on their [website](https://brew.sh/). 
 - **plutil** - plutil is a command line tool that is pre-installed in MacOS. 
 - **sqlite3**- sqlite3 is a command line tool that is pre-installed in MacOS. 
 - **gsed** - gsed aka [GNU-sed](https://www.gnu.org/software/sed/) is a stream editor that can edit text files from the Command Line. You can install [gsed](https://formulae.brew.sh/formula/gnu-sed) on your Mac with Homebrew: `brew install gnu-sed`
